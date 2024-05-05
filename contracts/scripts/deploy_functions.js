@@ -1,6 +1,6 @@
 async function deployFunctions() {
   // Initialize your contract factory here, for example:
-  const contractFactory = await ethers.getContractFactory('YourFunctionContract');
+  const contractFactory = await ethers.getContractFactory(DeFiLendingFunctions.sol);
 
   // Deploy your contract here, for example:
   const yourFunctionContract = await contractFactory.deploy();
