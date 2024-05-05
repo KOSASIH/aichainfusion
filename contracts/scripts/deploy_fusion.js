@@ -1,7 +1,6 @@
 async function deployFusion () {
   // Initialize your contract factory here, for example:
 
-
   // Deploy your contract here, for example:
   const yourFusionContract = await contractFactory.deploy()
   await yourFusionContract.deployed()
