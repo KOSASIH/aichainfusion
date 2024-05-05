@@ -2,7 +2,9 @@ async function deployFunctions () {
   // Initialize your contract factory here, for example:
 
   // Deploy your contract here, for example:
-  const yourFunctionContract = await contractFactory.deploy(`yourFunctionContract`)
+  const yourFunctionContract = await contractFactory.deploy(
+    'yourFunctionContract'
+  )
   await yourFunctionContract.deployed()
 
   console.log(
