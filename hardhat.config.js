@@ -1,9 +1,9 @@
-require("@nomiclabs/hardhat-waffle");
+require('@nomiclabs/hardhat-waffle')
 
-const { ALCHEMY_API_KEY, PRIVATE_KEY } = process.env;
+const { ALCHEMY_API_KEY, PRIVATE_KEY } = process.env
 
 module.exports = {
-  defaultNetwork: "hardhat",
+  defaultNetwork: 'hardhat',
   networks: {
     hardhat: {
       forking: {
@@ -17,7 +17,7 @@ module.exports = {
     }
   },
   solidity: {
-    version: "0.8.4",
+    version: '0.8.4',
     settings: {
       optimizer: {
         enabled: true,
@@ -30,4 +30,4 @@ module.exports = {
       default: 0
     }
   }
-};
+}
