@@ -1,3 +1,5 @@
+[![DeepSource](https://app.deepsource.com/gh/KOSASIH/aichainfusion.svg/?label=active+issues&show_trend=true&token=6Rdn1Xezx8y4dc5FlInSdRSE)](https://app.deepsource.com/gh/KOSASIH/aichainfusion/)
+
 # Aichainfusion
 
 Aichainfusion is a decentralized AI-powered blockchain platform that enables secure, transparent, and efficient data exchange and analysis. The platform leverages the power of artificial intelligence and blockchain technology to create a trusted and decentralized ecosystem for data-driven applications.
