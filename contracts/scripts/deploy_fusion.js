@@ -2,7 +2,7 @@ async function deployFusion () {
   // Initialize your contract factory here, for example:
 
   // Deploy your contract here, for example:
-  const yourFusionContract = await contractFactory.deploy()
+  const yourFusionContract = await contractFactory.deploy(MultiChainOracle.sol)
   await yourFusionContract.deployed()
 
   console.log(`YourFusionContract deployed to: ${yourFusionContract.address}`)
