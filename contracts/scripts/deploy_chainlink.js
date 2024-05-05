@@ -2,7 +2,9 @@ async function deployChainlink () {
   // Initialize your contract factory here, for example:
 
   // Deploy your contract here, for example:
-  const yourChainlinkContract = await contractFactory.deploy(DecentralizedExchange.sol)
+  const yourChainlinkContract = await contractFactory.deploy(
+    DecentralizedExchange.sol
+  )
   await yourChainlinkContract.deployed()
 
   console.log(
