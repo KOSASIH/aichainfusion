@@ -1,8 +1,6 @@
 async function deployChainlink () {
   // Initialize your contract factory here, for example:
-  const contractFactory = await ethers.getContractFactory(
-    'YourChainlinkContract'
-  )
+
 
   // Deploy your contract here, for example:
   const yourChainlinkContract = await contractFactory.deploy()

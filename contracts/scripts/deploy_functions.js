@@ -1,8 +1,6 @@
 async function deployFunctions () {
   // Initialize your contract factory here, for example:
-  const contractFactory = await ethers.getContractFactory(
-    'YourFunctionContract'
-  )
+
 
   // Deploy your contract here, for example:
   const yourFunctionContract = await contractFactory.deploy()
