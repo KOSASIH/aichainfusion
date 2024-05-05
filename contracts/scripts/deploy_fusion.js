@@ -1,17 +1,17 @@
-async function deployFusion() {
+async function deployFusion () {
   // Initialize your contract factory here, for example:
-  const contractFactory = await ethers.getContractFactory(CrossChainBridge.sol);
+  const contractFactory = await ethers.getContractFactory(CrossChainBridge.sol)
 
   // Deploy your contract here, for example:
-  const yourFusionContract = await contractFactory.deploy();
-  await yourFusionContract.deployed();
+  const yourFusionContract = await contractFactory.deploy()
+  await yourFusionContract.deployed()
 
-  console.log(`YourFusionContract deployed to: ${yourFusionContract.address}`);
+  console.log(`YourFusionContract deployed to: ${yourFusionContract.address}`)
 }
 
 deployFusion()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error(error);
-    process.exit(1);
-  });
+    console.error(error)
+    process.exit(1)
+  })
